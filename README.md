@@ -1,0 +1,74 @@
+<p align="center"><img src="https://i.ibb.co/pj0Pnj7/ADB-and-Fastboot-Plus-Plus.png" width="200"></a>
+<h1 align="center"><b>How-To flash a Android Kernel and Recovery with ADB and Fastboot</b></h1>
+<br />
+
+## Requirements:
+* Windows OS
+* USB Driver for your Device or Universal ADB Driver
+* Unlocked Bootloader
+* ADBKit - [GitHub](https://github.com/K3V1991/ADBKit "ADBKit")
+
+## Enable Developer Options & USB Debugging:
+1. Install the USB Driver for your Phone or Universal Adb Driver
+2. On your Phone, go to Settings > About Phone. Find the Build Number and tap on it 7 times to enable Developer Options
+3. Now enter System > Developer Options and find "USB debugging" and enable it
+4. Plug your Phone into the Computer and change it from "Charge only" to "File Transfer" Mode
+5. On your Computer, browse to the Directory where you extracted the ADBKit Zip
+6. Launch a Command Prompt with the Open CMD.bat
+7. Once you’re in the Command Prompt, enter the following Command:
+```
+adb devices
+```
+8. System is starting the ADB Daemon (If this is your first Time running ADB, you will see a Prompt on your Phone asking you to authorize a Connection with the Computer. Click OK.)
+9. Succesful enabled USB Debugging
+
+## Unable to connect to ADB:
+1. AMD Bug? - https://forum.xda-developers.com/t/fix-fastboot-issues-on-ryzen-based-pcs.4186321/
+2. Switch Device from "Charging" to "File Transfer" Mode
+3. Install the latest Device Driver or Universal USB Driver
+4. Try another USB Cable
+5. Use another USB Port (USB 3.0 Port to USB 2.0)
+6. Try to execute Fastboot Command without connecting your Phone and once it says "waiting for device" plug in your USB Cable
+7. Windows: Click "Change advanced power setting" on your chosen Plan and expand "USB Settings". Under "USB Settings" Section, expand "USB selective suspend setting" and change it to "Disabled" for On Battery and Plugged In
+8. Try another PC
+
+## How-To:
+1. Download and extract the ADBKit Zip
+2. On your Computer, browse to the Directory where you extracted the ADBKit Zip
+3. Place the Kernel or Recovery Image in the ADBKit Folder
+4. Plug your Phone into the Computer
+5. Launch a Command Prompt with the Open CMD.bat
+6. Once you’re in the Command Prompt, enter the following Command:
+```
+adb devices
+```
+and hit Enter
+
+7. Rebooting the Device to Bootloader:
+```
+adb reboot bootloader
+```
+and hit Enter
+<br />
+
+## Flash Kernel:
+(boot is a Example Name)
+```
+fastboot flash boot boot.img
+```
+and hit Enter
+<br />
+
+## Flash Recovery:
+(recovery is a Example Name)
+
+```
+fastboot flash recovery recovery.img
+```
+and hit Enter
+
+## Reboot to System:
+```
+fastboot reboot
+```
+and hit Enter
