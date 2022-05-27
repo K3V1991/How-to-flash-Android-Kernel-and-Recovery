@@ -6,7 +6,7 @@
 * Windows OS
 * USB Driver for your Device or Universal ADB Driver
 * Unlocked Bootloader
-* ADBKit - [GitHub](https://github.com/K3V1991/ADBKit "ADBKit")
+* ADB & Fastboot - [GitHub](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
 
 ## Enable Developer Options & USB Debugging:
 1. Install the USB Driver for your Phone or Universal Adb Driver
@@ -33,11 +33,11 @@ adb devices
 8. Try another PC
 
 ## How-To:
-1. Download and extract the ADBKit Zip
+1. Download and extract the ADB & Fastboot++ Zip or use the Installer 
 2. On your Computer, browse to the Directory where you extracted the ADBKit Zip
-3. Place the Kernel or Recovery Image in the ADBKit Folder
+3. Place the Kernel or Recovery Image in the ADB & Fastboot++ Folder
 4. Plug your Phone into the Computer
-5. Launch a Command Prompt with the Open CMD.bat
+5. Launch a Command Prompt with the Open CMD.bat or ADB & Fastboot++ Shortcut
 6. Once you’re in the Command Prompt, enter the following Command:
 ```
 adb devices
