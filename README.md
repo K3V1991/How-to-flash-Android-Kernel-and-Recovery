@@ -52,18 +52,15 @@ and hit Enter
 <br />
 
 ## Flash Kernel:
-(boot is a Example Name)
 ```
-fastboot flash boot boot.img
+fastboot flash boot <kernel file name>.img
 ```
 and hit Enter
 <br />
 
 ## Flash Recovery:
-(recovery is a Example Name)
-
 ```
-fastboot flash recovery recovery.img
+fastboot flash recovery <recovery file name>.img
 ```
 and hit Enter
 
