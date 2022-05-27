@@ -6,7 +6,7 @@
 * Windows OS
 * USB Driver for your Device or Universal ADB Driver
 * Unlocked Bootloader
-* ADB & Fastboot - [GitHub](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
+* ADB & Fastboot++ - [GitHub](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
 
 ## Enable Developer Options & USB Debugging:
 1. Install the USB Driver for your Phone or Universal Adb Driver
