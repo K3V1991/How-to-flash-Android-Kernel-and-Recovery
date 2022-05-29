@@ -6,15 +6,15 @@
 * Windows OS
 * USB Driver for your Device or Universal ADB Driver
 * Unlocked Bootloader
-* SDK Platform Tools - [Android Developers](https://developer.android.com/studio/releases/platform-tools) or use my Tool, ADB & Fastboot++ - [GitHub](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
+* Android SDK Platform-Tools - [Android Developers](https://developer.android.com/studio/releases/platform-tools) or use my Tool: ADB & Fastboot++ - [GitHub](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
 
 ## Enable Developer Options & USB Debugging:
 1. Install the USB Driver for your Phone or Universal Adb Driver
 2. On your Phone, go to Settings > About Phone. Find the Build Number and tap on it 7 times to enable Developer Options
 3. Now enter System > Developer Options and find "USB debugging" and enable it
 4. Plug your Phone into the Computer and change it from "Charge only" to "File Transfer" Mode
-5. On your Computer, browse to the Directory where you extracted the Platform Tools or ADBKit Zip
-6. Launch a Command Prompt or use the Open CMD.bat
+5. On your Computer, browse to the Directory where you extracted/installed the Platform-Tools or ADB & Fastboot++ 
+6. Launch a Command Prompt in the Platform-Tools Folder, use the Open CMD.bat or ADB & Fastboot++ Shortcut
 7. Once you’re in the Command Prompt, enter the following Command:
 ```
 adb devices
@@ -33,11 +33,11 @@ adb devices
 8. Try another PC
 
 ## How-To:
-1. Download and extract the ADB & Fastboot++ Zip or use the Installer 
-2. On your Computer, browse to the Directory where you extracted the ADBKit Zip
-3. Place the Kernel or Recovery Image in the ADB & Fastboot++ Folder
+1. Download and extract/install the Platform-Tools or ADB & Fastboot++ Zip/Installer 
+2. On your Computer, browse to the Directory where you extracted/installed one of the Tools
+3. Place the Kernel or Recovery Image in the Tool Folder (Platform-Tools, ADB-and-Fastboot++ or Install Folder)
 4. Plug your Phone into the Computer
-5. Launch a Command Prompt with the Open CMD.bat or ADB & Fastboot++ Shortcut
+5. Launch a Command Prompt in the Platform-Tools Folder or use the Open CMD.bat or ADB & Fastboot++ Shortcut
 6. Once you’re in the Command Prompt, enter the following Command:
 ```
 adb devices
