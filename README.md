@@ -1,5 +1,5 @@
 <p align="center"><img src="https://i.ibb.co/pj0Pnj7/ADB-and-Fastboot-Plus-Plus.png" width="200"></a>
-<h1 align="center"><b>How-To flash a Android Kernel and Recovery with ADB and Fastboot</b></h1>
+<h1 align="center"><b>How to flash a Android Kernel and Recovery with ADB and Fastboot</b></h1>
 <br />
 
 ## Requirements:
