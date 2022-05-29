@@ -1,20 +1,20 @@
 <p align="center"><img src="https://i.ibb.co/pj0Pnj7/ADB-and-Fastboot-Plus-Plus.png" width="200"></a>
-<h1 align="center"><b>How to flash a Android Kernel and Recovery with ADB and Fastboot</b></h1>
+<h1 align="center"><b>How to flash a Android Kernel and Recovery with ADB & Fastboot</b></h1>
 <br />
 
 ## Requirements:
 * Windows OS
 * USB Driver for your Device or Universal ADB Driver
 * Unlocked Bootloader
-* Android SDK Platform-Tools - [Android Developers](https://developer.android.com/studio/releases/platform-tools) or use my Tool: ADB & Fastboot++ - [GitHub](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
+* ADB & Fastboot++ - [GitHub](https://github.com/K3V1991/ADB-and-FastbootPlusPlus)
 
 ## Enable Developer Options & USB Debugging:
 1. Install the USB Driver for your Phone or Universal Adb Driver
 2. On your Phone, go to Settings > About Phone. Find the Build Number and tap on it 7 times to enable Developer Options
 3. Now enter System > Developer Options and find "USB debugging" and enable it
 4. Plug your Phone into the Computer and change it from "Charge only" to "File Transfer" Mode
-5. On your Computer, browse to the Directory where you extracted/installed the Platform-Tools or ADB & Fastboot++ 
-6. Launch a Command Prompt in the Platform-Tools Folder, use the Open CMD.bat or ADB & Fastboot++ Shortcut
+5. On your Computer, browse to the Directory where you extracted/installed ADB & Fastboot++ 
+6. Use the Open CMD.bat or ADB & Fastboot++ Shortcut to launch a Command Prompt
 7. Once you’re in the Command Prompt, enter the following Command:
 ```
 adb devices
@@ -33,11 +33,11 @@ adb devices
 8. Try another PC
 
 ## How-To:
-1. Download and extract/install the Platform-Tools or ADB & Fastboot++ Zip/Installer 
-2. On your Computer, browse to the Directory where you extracted/installed one of the Tools
-3. Place the Kernel or Recovery Image in the Tool Folder (Platform-Tools, ADB-and-Fastboot++ or Install Folder)
+1. Download and extract/install ADB & Fastboot++
+2. Browse to the Directory where you extracted/installed ADB & Fastboot++
+3. Place the Kernel or Recovery Image in the Tool Folder
 4. Plug your Phone into the Computer
-5. Launch a Command Prompt in the Platform-Tools Folder or use the Open CMD.bat or ADB & Fastboot++ Shortcut
+5. Launch a Command Prompt with the Open CMD.bat or ADB & Fastboot++ Shortcut
 6. Once you’re in the Command Prompt, enter the following Command:
 ```
 adb devices
