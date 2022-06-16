@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.ibb.co/pj0Pnj7/ADB-and-Fastboot-Plus-Plus.png" width="200"></a>
+<p align="center"><img src="https://i.ibb.co/StqqK8f/Flash.png" width="200"></a>
 <h1 align="center"><b>How to flash a Android Kernel and Recovery with ADB & Fastboot</b></h1>
 <br />
 
