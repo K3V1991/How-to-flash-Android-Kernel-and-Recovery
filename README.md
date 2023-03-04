@@ -19,8 +19,8 @@
 ## Enable Developer Options & USB Debugging:
 1. Install the USB Driver for your Phone or Universal Adb Driver
 2. On your Phone, go to Settings > About Phone. Find the Build Number and tap on it 7 times to enable Developer Options
-3. Now enter System > Developer Options and find "USB debugging" and enable it
-4. Plug your Phone into the Computer and change it from "Charge only" to "File Transfer" Mode
+3. Now enter ```System``` > ```Developer Options``` and find ```USB debugging``` and enable it
+4. Plug your Phone into the Computer and change it from ```Charge only``` to ```File Transfer``` Mode
 5. On your Computer, browse to the Directory where you extracted/installed ADB & Fastboot++ 
 6. Use the Open CMD.bat or ADB & Fastboot++ Shortcut to launch a Command Prompt
 7. Once you’re in the Command Prompt, enter the following Command:
